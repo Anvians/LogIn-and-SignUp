@@ -1,21 +1,26 @@
+Get http://localhost:3000/getting
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcwOTU0Nzg1OX0.H6hS_f0ihvcNPAUyQeq9nKSqOFSapF_U1SGc0hV-S5I
 
-
-PUT http://localhost:3000/change-password
-Content-Type: application/json
-
-{
-  "username": "adam_richard",
-  "oldPassword": "richard_567",
-  "newPassword": "richard@123"
-}
 
 # POST http://localhost:3000/login
 # Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcwOTU0Nzg1OX0.H6hS_f0ihvcNPAUyQeq9nKSqOFSapF_U1SGc0hV-S5I
 
 # {
 #    "username": "adam_richard",
-#    "password": "richard_567"
+#    "password": "richard@123"
 # }
+
+# PUT http://localhost:3000/change-password
+# Content-Type: application/json
+
+# {
+#   "username": "adam_richard",
+#   "oldPassword": "richard_567",
+#   "newPassword": "richard@123"
+# }
+
+
 
 
 # DELETE http://localhost:3000/register/adam_richard
